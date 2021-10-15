@@ -1,0 +1,23 @@
+h3{
+    color: yellow;
+}
+.hello_world{color: mediumvioletred;}
+
+.one{background-color: blue;}
+.two{background-color: yellow;}
+.three{background-color: green;}
+
+.one1{background-color: #cc96b8; margin-right:30px; margin-top:58px;}
+.two:visited{color:ff4f00;}
+.image1{background-image: url(../3.jpg); background-size:150px 150px; background-repeat: no-repeat; height: 250px; width: 250px; filter: hue-rotate(180deg);}
+.my_table,tr,td{border:1px solid black; border-collapse:separate;border-spacing:10px 10px;vertical-align: middle;}
+.mt1{vertical-align: middle;}
+.mt{vertical-align: middle;}
+
+div{background-color:aquamarine; height: 100%; width:100%;}
+.sq{background-color: green; height: 50px; width: 50px; display: flex;}
+.container{display: flex; flex-direction: row; flex-wrap: wrap;}
+.container1{display: grid; grid-template-columns:1fr 1fr 1fr; grid-template-rows: 150px 150px 150px; grid-column-gap: 5px; grid-row-gap:5px;}
+.one11, .two22, .three33, .four44 {margin:10px;}
+.one111, .two222, .three333, .four444 {margin:10px;}
+.one_new{grid-column-start:1; grid-column-end:4}

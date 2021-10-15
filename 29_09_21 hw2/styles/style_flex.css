@@ -1,0 +1,5 @@
+div{background-color:cyan;height:100%;width:100%;border-radius:100%}
+.container{display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-columns:150px 150px 150px;grid-column-gap:5px;grid-row-gap:5px;}
+@media screen and (max-width:350px){.container{display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-columns:150px 150px 150px;grid-column-gap:5px;}.two{background-color:purple;}}
+@media screen and (min-width:701px){.container{grid-template-columns:repeat(2,1fr 1fr 1fr);grid-template-columns:repeat(2,150px 150px 150px);grid-column-gap:10px;}}
+@media screen and (min-width:701px){.container{grid-template-columns:1fr 1fr 1fr;grid-template-columns:150px 150px;grid-column-gap:10px;}}
