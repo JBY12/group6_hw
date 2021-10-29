@@ -1,0 +1,17 @@
+.container{float:left;display:flex;justify-content:center;background-color:purple;width:98%;border-style:ridge;border-width:10px;border-color:cyan;margin-top:50px;}
+.grid{margin-top:50px;float:left;display:grid;width:98%;grid-template-columns:1fr 1fr;grid-template-rows: 1fr 1fr;grid-column-gap:10px;grid-row-gap:10px;background-color:purple;justify-items:center:center;border-style:ridge;border-width:10px;border-color:cyan;}
+.Rakim, .Lamar, .DOOM, .Madlib{margin:20px;height:100%;width:100%;flex:1;}
+.Rakim:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+.Lamar:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+.DOOM:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+.Madlib:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+.McCartney, .Davis, .Yorke, .BfL{margin:20px;height:100%;width:100%;grid:1;}
+.McCartney:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+.Davis:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+.Yorke:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+.BfL:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+.ZI, .MJU, .RG, .FS{margin:20px;height:100%;width:100%;flex:1;}
+.ZI:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+.MJU:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+.RG:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+.FS:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
